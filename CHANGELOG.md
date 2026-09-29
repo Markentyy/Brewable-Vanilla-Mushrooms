@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - Nexus update key so SMAPI notifies players about new versions.
 
+### Fixed
+
+- Docs: juice output is always normal quality (vanilla keg behavior); the README no longer claims quality is preserved.
+
 ## [1.0.0] - 2026-09-29
 
 ### Added
