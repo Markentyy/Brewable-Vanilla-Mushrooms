@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
-- Nexus update key (`Nexus:53088`) so SMAPI notifies players about new versions.
+- Nexus update key so SMAPI notifies players about new versions.
 
 ## [1.0.0] - 2026-09-29
 
