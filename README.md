@@ -29,7 +29,7 @@ no new machines, no scripts, no save edits.
 ## Features
 
 - Drop any vanilla mushroom into a keg, get flavored juice after ~4 days (6000 min, vanilla time).
-- Quality is preserved, price follows the vanilla juice formula (`base x 2.25`).
+- Output is always normal quality (vanilla keg behavior – ingredient stars don't matter, price uses the base value), so ferment normal-quality mushrooms and sell starred ones raw. Price follows the vanilla juice formula (`base x 2.25`).
 - Uses `TargetField` edits on `Data/Objects` `ContextTags`, so other mods' tags are kept.
 
 ## Covered items
