@@ -77,10 +77,13 @@ it just gives a choice:
 
 ## Screenshots
 
-> Placeholders — screenshots will be added here.
+Common Mushroom fermenting in the keg:
 
-- `docs/screenshots/keg-input.png` — mushroom placed into the keg (TODO).
-- `docs/screenshots/juice-output.png` — harvested mushroom juice with price (TODO).
+![Mushroom fermenting in the keg](docs/screenshots/keg-input.png)
+
+Harvested Common Mushroom Juice (Artisan Goods, +75 Energy / +33 Health):
+
+![Common Mushroom Juice item tooltip](docs/screenshots/juice-output.png)
 
 ## Author
 
