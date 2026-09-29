@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*~
+
+# Release artifacts (built locally, not committed)
+*.zip

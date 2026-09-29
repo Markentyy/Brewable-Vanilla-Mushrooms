@@ -1,0 +1,42 @@
+name: validate
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON syntax
+        run: |
+          python3 -c "import json; json.load(open('manifest.json')); json.load(open('content.json')); print('JSON OK')"
+
+      - name: Validate manifest fields
+        run: |
+          python3 - <<'EOF'
+          import json
+          m = json.load(open('manifest.json'))
+          assert m["Name"] == "Brewable Vanilla Mushrooms", m
+          assert m["Author"] == "Markentyy", m
+          assert m["UniqueID"] == "Markentyy.BrewableVanillaMushrooms", m
+          assert m["ContentPackFor"]["UniqueID"] == "Pathoschild.ContentPatcher", m
+          print("manifest OK")
+          EOF
+
+      - name: Validate content pack covers all items
+        run: |
+          python3 - <<'EOF'
+          import json
+          c = json.load(open('content.json'))
+          expected = {"257", "281", "404", "420", "422", "430", "851"}
+          fields = {tuple(ch["TargetField"]) for ch in c["Changes"]}
+          ids = {f[0] for f in fields}
+          assert ids == expected, f"got {ids}"
+          for ch in c["Changes"]:
+              assert ch["Action"] == "EditData", ch
+              assert ch["Target"] == "Data/Objects", ch
+              assert ch["TargetField"][1] == "ContextTags", ch
+              assert ch["Entries"] == {"keg_juice": "keg_juice"}, ch
+          print(f"content OK: {len(c['Changes'])} items")
+          EOF

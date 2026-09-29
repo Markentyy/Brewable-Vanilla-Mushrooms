@@ -1,0 +1,68 @@
+{
+  "Format": "2.8.0",
+  "Changes": [
+    {
+      "LogName": "Morel -> keg juice",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "257", "ContextTags" ],
+      "Entries": {
+        "keg_juice": "keg_juice"
+      }
+    },
+    {
+      "LogName": "Chanterelle -> keg juice",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "281", "ContextTags" ],
+      "Entries": {
+        "keg_juice": "keg_juice"
+      }
+    },
+    {
+      "LogName": "Common Mushroom -> keg juice",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "404", "ContextTags" ],
+      "Entries": {
+        "keg_juice": "keg_juice"
+      }
+    },
+    {
+      "LogName": "Red Mushroom -> keg juice",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "420", "ContextTags" ],
+      "Entries": {
+        "keg_juice": "keg_juice"
+      }
+    },
+    {
+      "LogName": "Purple Mushroom -> keg juice",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "422", "ContextTags" ],
+      "Entries": {
+        "keg_juice": "keg_juice"
+      }
+    },
+    {
+      "LogName": "Truffle -> keg juice",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "430", "ContextTags" ],
+      "Entries": {
+        "keg_juice": "keg_juice"
+      }
+    },
+    {
+      "LogName": "Magma Cap -> keg juice",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "TargetField": [ "851", "ContextTags" ],
+      "Entries": {
+        "keg_juice": "keg_juice"
+      }
+    }
+  ]
+}

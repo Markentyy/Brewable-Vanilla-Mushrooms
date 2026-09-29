@@ -1,0 +1,12 @@
+{
+  "Name": "Brewable Vanilla Mushrooms",
+  "Author": "Markentyy",
+  "Version": "1.0.0",
+  "Description": "Lets every vanilla mushroom (plus truffle) be processed in a Keg into juice. Lightweight, vanilla-friendly Content Patcher pack.",
+  "UniqueID": "Markentyy.BrewableVanillaMushrooms",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.0"
+  }
+}
