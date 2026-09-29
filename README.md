@@ -1,6 +1,6 @@
 # Brewable Vanilla Mushrooms
 
-![version](https://img.shields.io/badge/version-1.0.0-blue)
+![version](https://img.shields.io/badge/version-1.0.1-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![SMAPI](https://img.shields.io/badge/SMAPI-4.x-orange)
 ![Content Patcher](https://img.shields.io/badge/Content_Patcher-2.x-yellowgreen)
