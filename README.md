@@ -11,7 +11,7 @@ can be placed into a **Keg** to make **juice**, just like vegetables.
 
 Vanilla 1.6 explicitly excludes mushrooms from the keg
 (`any vegetable or any positive-energy forage other than mushrooms -> juice`).
-This mod lifts that exclusion with a single context tag (`keg_juice`) per item —
+This mod lifts that exclusion with a single context tag (`keg_juice`) per item –
 no new machines, no scripts, no save edits.
 
 ## Contents
@@ -87,8 +87,8 @@ Harvested Common Mushroom Juice (Artisan Goods, +75 Energy / +33 Health):
 
 ## Author
 
-Markentyy — [GitHub](https://github.com/Markentyy).
+Markentyy – [GitHub](https://github.com/Markentyy).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT – see [LICENSE](LICENSE).
